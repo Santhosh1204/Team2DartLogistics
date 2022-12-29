@@ -198,7 +198,7 @@ a {
 
 									<!-- Form for truck driver login  -->
 
-									<form th:action="@{/login}" method="POST" class="form-signin  ">
+									<form th:action="@{/j_spring_security_check}" method="POST" class="form-signin  ">
 										<h3 class="form-signin-heading" th:text="Welcome"></h3>
 
 										<div class="d-flex align-items-center mb-3 pb-1">
